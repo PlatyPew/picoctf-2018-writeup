@@ -33,3 +33,4 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
 
 ## Web Exploitation
+- [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
