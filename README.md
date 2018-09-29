@@ -11,6 +11,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 
 ## Binary Exploitation
 - [buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200) - 150
+- [buffer overflow 1](Binary%20Exploitation/buffer%20overflow%201) - 200
 - [leak-me](Binary%20Exploitation/leak-me) - 200
 - [shellcode](Binary%20Exploitation/shellcode) - 200
 - [echooo](Binary%20Exploitation/echooo) (Unsolved) - 300
@@ -50,6 +51,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [you can't see me](General%20Skills/you%20can%27t%20see%20me) - 200
 - [absolutely relative](General%20Skills/absolutely%20relative) - 200
 - [in out error](General%20Skills/in%20out%20error) - 275
+- [learn gdb](General%20Skills/learn%20gdb) (Unsolved) - 300
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
