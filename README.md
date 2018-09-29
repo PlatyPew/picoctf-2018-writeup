@@ -25,6 +25,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [General Skills 3](General%20Skills/General%20Warmup%203) - 50
 - [Resources](General%20Skills/Resources) - 50
 - [grep 1](General%20Skills/grep%201) - 75
+- [net cat](General%20Skills/net%20cat) - 75
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
