@@ -35,6 +35,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [grep 2](General%20Skills/grep%202) - 125
 - [Aca-Shell-A](General%20Skills/Aca-Shell-A) - 150
 - [environ](General%20Skills/environ) - 150
+- [ssh-keyz](General%20Skills/ssh-keyz) - 150
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
