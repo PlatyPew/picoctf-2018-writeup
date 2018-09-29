@@ -30,7 +30,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
-- Desrouleaux - 150
+- [Desrouleaux](Forensics/Desrouleaux) - 150
 - [admin panel](Forensics/admin%20panel) - 150
 
 ## General Skills
@@ -52,6 +52,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
 - [assembly-0](Reversing/assembly-0) - 150
 - [assembly-1](Reversing/assembly-1) - 200
+- [be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1) - 200
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
