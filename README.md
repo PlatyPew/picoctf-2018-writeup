@@ -12,6 +12,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Binary Exploitation
 - [buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200) - 150
 - [leak-me](Binary%20Exploitation/leak-me) - 200
+- [shellcode](Binary%20Exploitation/shellcode) - 200
 
 ## Cryptography
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
