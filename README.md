@@ -18,6 +18,8 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
 - [Crypto Warmup 2](Cryptography/Crypto%20Warmup%202) - 75
 - [HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!) - 100
+- [caesar cipher 1](Cryptography/caesar%20cipher%201) - 150
+- [blaise's cipher](Cryptography/blaise%27s%20cipher) - 200
 
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
