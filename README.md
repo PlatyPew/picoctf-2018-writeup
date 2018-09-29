@@ -10,7 +10,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Web Exploitation](#web-exploitation)
 
 ## Binary Exploitation
-- [buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200)
+- [buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200) - 150
 
 ## Cryptography
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
