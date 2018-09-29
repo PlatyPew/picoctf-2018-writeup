@@ -30,7 +30,9 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Resources](General%20Skills/Resources) - 50
 - [grep 1](General%20Skills/grep%201) - 75
 - [net cat](General%20Skills/net%20cat) - 75
-- [Aca-Shell-A](General%20Skills%2FAca-Shell-A) - 150
+- [strings](General%20Skills/strings) - 100
+- [pipe](General%20Skills/pipe) - 110
+- [Aca-Shell-A](General%20Skills/Aca-Shell-A) - 150
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
