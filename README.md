@@ -24,7 +24,8 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [blaise's cipher](Cryptography/blaise%27s%20cipher) - 200
 - [hertz 2](Cryptography/hertz%202) - 200
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) (Unsolved) - 250
-- [rsa-madlibs](Cryptography/rsa-madlibs) (Unsolved) - 250
+- [rsa-madlibs](Cryptography/rsa-madlibs)- 250
+- [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
 
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
@@ -50,6 +51,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
 - [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
 - [assembly-0](Reversing/assembly-0) - 150
+- [assembly-1](Reversing/assembly-1) - 200
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
