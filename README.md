@@ -48,6 +48,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [ssh-keyz](General%20Skills/ssh-keyz) - 150
 - [what base is this?](General%20Skills/what%20base%20is%20this%3F) - 200
 - [you can't see me](General%20Skills/you%20can%27t%20see%20me) - 200
+- [absolutely relative](General%20Skills/absolutely%20relative) - 200
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
