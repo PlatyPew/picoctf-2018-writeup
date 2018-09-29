@@ -36,3 +36,5 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
 - [Client Side is Still Bad](Web%20Exploitation/Client%20Side%20is%20Still%20Bad) - 150
+- [Logon](Web%20Exploitation/Logon) - 150
+- [Mr. Robots](Web%20Exploitation%2FMr.%20Robots) - 200
