@@ -19,6 +19,8 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
+- Desrouleaux - 150
+- admin panel - 150
 
 ## General Skills
 - [General Skills 1](General%20Skills/General%20Warmup%201) - 50
@@ -32,9 +34,11 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
 - [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
+- [assembly-0](Reversing/assembly-0) - 150
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
 - [Client Side is Still Bad](Web%20Exploitation/Client%20Side%20is%20Still%20Bad) - 150
 - [Logon](Web%20Exploitation/Logon) - 150
 - [Mr. Robots](Web%20Exploitation%2FMr.%20Robots) - 200
+- [Irish Name Repo](Web%20Exploitation/Irish%20Name%20Repo) - 200
