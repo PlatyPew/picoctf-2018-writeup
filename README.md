@@ -14,6 +14,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Cryptography
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
 - [Crypto Warmup 2](Cryptography/Crypto%20Warmup%202) - 75
+- [HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!) - 100
 
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
