@@ -27,6 +27,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Resources](General%20Skills/Resources) - 50
 - [grep 1](General%20Skills/grep%201) - 75
 - [net cat](General%20Skills/net%20cat) - 75
+- [Aca-Shell-A](General%20Skills%2FAca-Shell-A) - 150
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
@@ -34,3 +35,4 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
+- [Client Side is Still Bad](Web%20Exploitation/Client%20Side%20is%20Still%20Bad) - 150
