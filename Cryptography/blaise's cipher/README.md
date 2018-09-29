@@ -13,7 +13,7 @@ Cryptography
 >This cipher was NOT invented by Pascal
 
 ## Solution
-This is a Vigenère Cipher, this time without a key. Bruteforce using an online tool. Online tool: https://www.nayuki.io/page/automatic-caesar-cipher-breaker-javascript
+This is a Vigenère Cipher, this time without a key. Bruteforce using an online tool. Online tool: https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
 
 ### Flag
-`picoctf{v1gj3r3_c1ph3rs_ar3n7_bad_cdf08bf0}`
+`picoCTF{v1gn3r3_c1ph3rs_ar3n7_bad_cdf08bf0}`
