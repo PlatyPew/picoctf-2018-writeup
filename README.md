@@ -23,14 +23,14 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [hertz](Cryptography/hertz) - 150
 - [blaise's cipher](Cryptography/blaise%27s%20cipher) - 200
 - [hertz 2](Cryptography/hertz%202) - 200
-- [caesar cipher 2](Cryptography/caesar%20cipher%202) (Unsolved) - 250
+- [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
 
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
-- [Desrouleaux](Forensics/Desrouleaux) - 150
+- [Desrouleaux](Forensics/Desrouleaux) (Unsolved) - 150
 - [admin panel](Forensics/admin%20panel) - 150
 
 ## General Skills
@@ -46,6 +46,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Aca-Shell-A](General%20Skills/Aca-Shell-A) - 150
 - [environ](General%20Skills/environ) - 150
 - [ssh-keyz](General%20Skills/ssh-keyz) - 150
+- [what base is this?](General%20Skills/what%20base%20is%20this%3F) - 200
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
