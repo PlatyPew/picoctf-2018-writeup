@@ -12,20 +12,21 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 ## Binary Exploitation
 
 ## Cryptography
-- [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201)
-- [Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)
+- [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
+- [Crypto Warmup 2](Cryptography/Crypto%20Warmup%202) - 75
 
 ## Forensics
-- [Forensics Warmup 1](Forensics/Forensics%20Warmup%201)
-- [Forensics Warmup 2](Forensics/Forensics%20Warmup%202)
+- [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
+- [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
 
 ## General Skills
-- [General Skills 1](General%20Skills/General%20Warmup%201)
-- [General Skills 2](General%20Skills/General%20Warmup%202)
-- [General Skills 3](General%20Skills/General%20Warmup%203)
+- [General Skills 1](General%20Skills/General%20Warmup%201) - 50
+- [General Skills 2](General%20Skills/General%20Warmup%202) - 50
+- [General Skills 3](General%20Skills/General%20Warmup%203) - 50
+- [Resources](General%20Skills/Resources) - 50
 
 ## Reversing
-- [Reversing Warmup 1](Reversing/Reversing%20Warmup%201)
-- [Reversing Warmup 2](Reversing/Reversing%20Warmup%202)
+- [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
+- [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
 
 ## Web Exploitation
