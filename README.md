@@ -33,6 +33,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [strings](General%20Skills/strings) - 100
 - [pipe](General%20Skills/pipe) - 110
 - [Aca-Shell-A](General%20Skills/Aca-Shell-A) - 150
+- [environ](General%20Skills/environ) - 150
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
