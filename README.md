@@ -20,7 +20,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
 - Desrouleaux - 150
-- admin panel - 150
+- [admin panel](Forensics/admin%20panel) - 150
 
 ## General Skills
 - [General Skills 1](General%20Skills/General%20Warmup%201) - 50
