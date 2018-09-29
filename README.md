@@ -32,6 +32,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [net cat](General%20Skills/net%20cat) - 75
 - [strings](General%20Skills/strings) - 100
 - [pipe](General%20Skills/pipe) - 110
+- [grep 2](General%20Skills/grep%202) - 125
 - [Aca-Shell-A](General%20Skills/Aca-Shell-A) - 150
 - [environ](General%20Skills/environ) - 150
 
