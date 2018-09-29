@@ -11,8 +11,10 @@ General Skills
 >Submit your answer in our competition's flag format. For example, if you answer was 'hello', you would submit 'picoCTF{hello}' as the flag.
 
 ## Solution
-Solution here
+```python
+>>> chr(0x41)
+'A'
+```
 
 ### Flag
 `picoCTF{A}`
-
