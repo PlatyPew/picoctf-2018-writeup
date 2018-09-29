@@ -14,6 +14,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [buffer overflow 1](Binary%20Exploitation/buffer%20overflow%201) - 200
 - [leak-me](Binary%20Exploitation/leak-me) - 200
 - [shellcode](Binary%20Exploitation/shellcode) - 200
+- [buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202) - 250
 - [echooo](Binary%20Exploitation/echooo) (Unsolved) - 300
 
 ## Cryptography
