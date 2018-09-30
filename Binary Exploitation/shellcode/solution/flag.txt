@@ -1,1 +1,0 @@
-picoCTF{shellc0de_w00h00_9ee0edd0}
