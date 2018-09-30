@@ -17,6 +17,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202) - 250
 - [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) (Unsolved) - 250
 - [echooo](Binary%20Exploitation/echooo) (Unsolved) - 300
+- [got-shell?](Binary%20Exploitation/got-shell%3F) - 350
 - [buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203) (Unsolved) - 450
 
 ## Cryptography
@@ -64,6 +65,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [assembly-1](Reversing/assembly-1) - 200
 - [quackme](Reversing/quackme) (Unsolved) - 200
 - [be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1) - 200
+- [assembly-2](Reversing/assembly-2) (Unsolved) - 250
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
