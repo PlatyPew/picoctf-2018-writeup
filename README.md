@@ -40,7 +40,17 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
 - [Desrouleaux](Forensics/Desrouleaux) - 150
+- Reading Between the Eyes (Unsolved) - 150
+- Recovering From the Snap - 150
 - [admin panel](Forensics/admin%20panel) - 150
+- hex editor - 150
+- Truly an Artist - 200
+- now you don't - 200
+- Ext Super Magic (Unsolved) - 250
+- Lying Out - 250
+- What's My Name? (Unsolved) - 250
+- Malware Shops (Unsolved) - 400
+- LoadSomeBits - 550
 
 ## General Skills
 - [General Skills 1](General%20Skills/General%20Warmup%201) - 50
@@ -87,3 +97,9 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Buttons](Web%20Exploitation/Buttons) - 250
 - [The Vault](Web%20Exploitation/The%20Vault) - 250
 - [Artisinal Handcrafted HTTP 3](Web%20Exploitation/Artisinal%20Handcrafted%20HTTP%203) - 300
+- Flaskcards (Unsolved) - 350
+- fancy-alive-monitoring (Unsolved) - 400
+- Secure Logon (Unsolved) - 500
+- Help Me Reset 2 (Unsolved) - 600
+- A Simple Question (Unsolved) - 650
+- LambDash 3 (Unsolved) - 800
