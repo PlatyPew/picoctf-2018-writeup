@@ -62,6 +62,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
 - [assembly-0](Reversing/assembly-0) - 150
 - [assembly-1](Reversing/assembly-1) - 200
+- [quackme](Reversing/quackme) (Unsolved) - 200
 - [be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1) - 200
 
 ## Web Exploitation
