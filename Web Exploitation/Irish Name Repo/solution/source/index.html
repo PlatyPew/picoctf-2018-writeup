@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="W3.CSS%20Template_files/w3.css">
+<link rel="stylesheet" href="W3.CSS%20Template_files/css.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head><body>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()" >☰</div>
+    <div class="w3-center w3-padding-16">List 'o the Irish!</div>
+  </div>
+</div>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  <a href="support.html" class="w3-bar-item w3-button">Support</a>
+  <a href="login.html" class="w3-bar-item w3-button">Admin Login</a>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-third">
+      <img src="irish/Aidan_Gillen.jpg" alt="Image not available" style="width:100%">
+      <h3>Aidan Gillen</h3>
+      <p>I was on Game of Thrones!</p>
+    </div>
+    <div class="w3-third">
+      <img src="irish/Aidan_Higgins_pic2.jpg" alt="Image not available" style="width:100%">
+      <h3>Aiden Higgens</h3>
+      <p>"All fiction happened"</p>
+    </div>
+    <div class="w3-third">
+      <img src="irish/Alison_Doody.jpg" alt="Image not available" style="width:100%">
+      <h3>Alison Doody</h3>
+      <p>hehe...Doody.</p>
+    </div>
+  </div>
+  
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-third">
+      <img src="irish/Dylan_Moran_Melbourne.jpg" alt="Image not available" style="width:100%">
+      <h3>Dylan Moran</h3>
+      <p>"You can sort your life out anytime; the pub closes in five hours."</p>
+    </div>
+    <div class="w3-third">
+      <img src="irish/TommyT.jpeg" alt="Image not available" style="width:100%">
+      <h3>Tommy Tiernan</h3>
+      <p>Editor's note: could not find quote without profanity.</p>
+    </div>
+    <div class="w3-third">
+      <img src="irish/Brendan_Gleeson.jpg" alt="Image not available" style="width:100%">
+      <h3>Brendan Gleeson</h3>
+      <p>Guess which Harry Potter character I was!</p>
+    </div>
+  </div>
+  
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+<script>
+  // Script to open and close sidebar
+  function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+  }
+   
+  function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+</body></html>
