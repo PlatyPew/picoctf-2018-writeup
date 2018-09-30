@@ -15,7 +15,9 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [leak-me](Binary%20Exploitation/leak-me) - 200
 - [shellcode](Binary%20Exploitation/shellcode) - 200
 - [buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202) - 250
+- [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) (Unsolved) - 250
 - [echooo](Binary%20Exploitation/echooo) (Unsolved) - 300
+- [buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203) (Unsolved) - 450
 
 ## Cryptography
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
@@ -25,6 +27,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [hertz](Cryptography/hertz) - 150
 - [blaise's cipher](Cryptography/blaise%27s%20cipher) - 200
 - [hertz 2](Cryptography/hertz%202) - 200
+- [Safe RSA](Cryptography/Safe%20RSA) - 250
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
