@@ -11,7 +11,7 @@ Forensics
 >If you need to code, python has some good libraries for it.
 
 ## Solution
-
+Answer the questions manually by reading the json file provided.
 
 ### Flag
-``
+`picoCTF{J4y_s0n_d3rUUUULo_c74e3495}`

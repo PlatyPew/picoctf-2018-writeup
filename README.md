@@ -18,6 +18,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) (Unsolved) - 250
 - [echooo](Binary%20Exploitation/echooo) (Unsolved) - 300
 - [got-shell?](Binary%20Exploitation/got-shell%3F) - 350
+- [rop chain](Binary%20Exploitation/rop%20chain) (Unsolved) - 350
 - [buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203) (Unsolved) - 450
 
 ## Cryptography
@@ -31,12 +32,14 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Safe RSA](Cryptography/Safe%20RSA) - 250
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
+- SpyFi (Unsolved) - 300
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
+- James Brahm Returns (Unsolved) - 700
 
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
-- [Desrouleaux](Forensics/Desrouleaux) (Unsolved) - 150
+- [Desrouleaux](Forensics/Desrouleaux) - 150
 - [admin panel](Forensics/admin%20panel) - 150
 
 ## General Skills
@@ -57,20 +60,30 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [absolutely relative](General%20Skills/absolutely%20relative) - 200
 - [in out error](General%20Skills/in%20out%20error) - 275
 - [learn gdb](General%20Skills/learn%20gdb) (Unsolved) - 300
+- store (Unsolved) - 400
+- script me (Unsolved) - 500
+- Dog or Frog (Unsolved) - 900
 
 ## Reversing
 - [Reversing Warmup 1](Reversing/Reversing%20Warmup%201) - 50
 - [Reversing Warmup 2](Reversing/Reversing%20Warmup%202) - 50
 - [assembly-0](Reversing/assembly-0) - 150
 - [assembly-1](Reversing/assembly-1) - 200
-- [quackme](Reversing/quackme) (Unsolved) - 200
 - [be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1) - 200
+- [quackme](Reversing/quackme) (Unsolved) - 200
 - [assembly-2](Reversing/assembly-2) (Unsolved) - 250
+- be-quick-or-be-dead-2 (Unsolved) - 275
+- Radix's Terminal (Unsolved) - 400
+- keygen-me-1 (Unsolved) - 400
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
 - [Client Side is Still Bad](Web%20Exploitation/Client%20Side%20is%20Still%20Bad) - 150
 - [Logon](Web%20Exploitation/Logon) - 150
-- [Mr. Robots](Web%20Exploitation%2FMr.%20Robots) - 200
 - [Irish Name Repo](Web%20Exploitation/Irish%20Name%20Repo) - 200
+- [Mr. Robots](Web%20Exploitation/Mr.%20Robots) - 200
+- [No Login](Web%20Exploitation/No%20Login) - 200
+- [Secret Agent](Web%20Exploitation/Secret%20Agent) - 200
 - [Buttons](Web%20Exploitation/Buttons) - 250
+- [The Vault](Web%20Exploitation/The%20Vault) - 250
+- [Artisinal Handcrafted HTTP 3](Web%20Exploitation/Artisinal%20Handcrafted%20HTTP%203) - 300

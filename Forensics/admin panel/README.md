@@ -5,7 +5,7 @@ Points: 150
 Forensics
 
 ## Question
->We captured some traffic logging into the admin panel, can you find the password?
+>We captured some [traffic](files/admin_panel.pcap) logging into the admin panel, can you find the password?
 
 ### Hint
 >Tools like wireshark are pretty good for analyzing pcap files.
