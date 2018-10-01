@@ -11,6 +11,8 @@ General Skills
 nc [tutorial](https://linux.die.net/man/1/nc)
 
 ## Solution
+_Netcat_ allows users to read and write data over network connections.
+
 Do `nc 2018shell1.picoctf.com 49387` to connect to the remote service and get the flag.
 
 ### Flag

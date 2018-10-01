@@ -11,7 +11,13 @@ General Skills
 >unix [env](https://www.tutorialspoint.com/unix/unix-environment.htm)
 
 ## Solution
-Do `printenv | grep pico` to get flag
+We can use the _printenv_ command to show all the environment variables running in the system. Pipe output to _grep_ and get the flag.
+
+```
+# Execute this command in the web shell
+$ printenv | grep picoCTF
+SECRET_FLAG=picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}
+```
 
 ### Flag
 `picoCTF{eNv1r0nM3nT_v4r14Bl3_fL4g_3758492}`

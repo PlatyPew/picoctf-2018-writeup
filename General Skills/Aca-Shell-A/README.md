@@ -11,7 +11,16 @@ General Skills
 >Linux for [Beginners](https://maker.pro/education/basic-linux-commands-for-beginners)
 
 ## Solution
-Follow the instructions
+This challenge teaches you the basic commands of Linux.
+
+- `ls`
+- `cd`
+- `rm`
+- How to execute files
+- `whoami`
+- `cat`
+
+Follow the instructions and get the flag.
 
 ```
 $ nc 2018shell1.picoctf.com 33158

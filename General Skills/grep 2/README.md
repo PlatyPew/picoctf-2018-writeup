@@ -11,6 +11,10 @@ General Skills
 >grep [tutorial](https://ryanstutorials.net/linuxtutorial/grep.php)
 
 ## Solution
+This time, there are multiple folders, each containing it's own set of folders and files.
+
+We can _grep_ recursively by using `-r` to get the flag.
+
 Do `grep -r picoCTF` to filter out the flag.
 
 ### Flag

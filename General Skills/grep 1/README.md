@@ -11,7 +11,11 @@ General Skills
 >grep [tutorial](https://ryanstutorials.net/linuxtutorial/grep.php)
 
 ## Solution
-Do `cat file | grep picoCTF` to filter out the flag.
+We are given a file with a lot of gibberish.
+
+Grep prints the lines matching a pattern.
+
+Do `grep picoCTF file` to filter out the flag.
 
 ### Flag
 `picoCTF{grep_and_you_will_find_cdf2e7c2}`

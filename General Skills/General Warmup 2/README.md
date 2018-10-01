@@ -11,6 +11,8 @@ General Skills
 >Submit your answer in our competition's flag format. For example, if you answer was '11111', you would submit 'picoCTF{11111}' as the flag.
 
 ## Solution
+We can use Python to convert an integer to a binary number.
+
 ```python
 >>> bin(27)[2:]
 '11011'

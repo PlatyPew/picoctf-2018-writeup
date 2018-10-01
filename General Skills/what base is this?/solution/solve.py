@@ -26,17 +26,16 @@ ans = hexa.decode('hex')
 print 'SEND> ' + ans
 s.sendline(ans)
 
-dec = s.recvuntil('word.')[2:]
-print dec
+octal = s.recvuntil('word.')[2:]
+print octal
 
-dec = re.findall(r'[0-9]+', dec)
+octal = re.findall(r'[0-9]+', octal)
 
-print dec
 ans = ''
-for i in dec:
+for i in octal:
 	ans += chr(int(i, 8))
 
-print 'SEND>' + ans
+print 'SEND> ' + ans
 s.sendline(ans)
 
 print s.recvuntil('}\n')

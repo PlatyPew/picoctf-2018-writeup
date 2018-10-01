@@ -13,7 +13,11 @@ General Skills
 >Ever heard of a pipe? No not that kind of pipe... This [kind](http://www.linfo.org/pipes.html)
 
 ## Solution
-Do `nc 2018shell1.picoctf.com 48696 | grep pico` to get flag
+The _pipe_ or the `|` passes standard output into standard input.
+
+Connect to the service and pipe output to _grep_
+
+Do `nc 2018shell1.picoctf.com 48696 | grep pico` to get flag.
 
 ### Flag
 `picoCTF{almost_like_mario_f617d1d7}`

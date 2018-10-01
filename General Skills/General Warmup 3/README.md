@@ -11,6 +11,8 @@ General Skills
 >Submit your answer in our competition's flag format. For example, if you answer was '22', you would submit 'picoCTF{22}' as the flag.
 
 ## Solution
+We can use Python to convert hexadecimal to decimal numbers.
+
 ```python
 >>> 0x3d
 61

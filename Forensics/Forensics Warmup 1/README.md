@@ -11,7 +11,9 @@ Forensics
 >Make sure to submit the flag as picoCTF{XXXXX}
 
 ## Solution
-`unzip flag.zip`
+Extract the zipped file provided by doing `unzip flag.zip`.
+
+The extracted file contain _flag.jpg_. Open image in an image viewer to get the flag.
 
 ### Flag
 `picoCTF{welcome_to_forensics}`

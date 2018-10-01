@@ -13,11 +13,11 @@ Forensics
 >Make sure to submit the flag as picoCTF{XXXXX}
 
 ## Solution
-`file flag.png`
+Do `file flag.png` to find the actual filetype.
 
-Change extension to _.jpg_
+However, most image viewer software should be able to open the _.png_ file without any problem.
 
-Open with image viewer
+If this doesn't work change the file extension to _.jpg_
 
 ### Flag
 `picoCTF{extensions_are_a_lie}`
