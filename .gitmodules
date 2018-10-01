@@ -1,0 +1,3 @@
+[submodule "Cryptography/Super Safe RSA 2/Cryptography/Super"]
+	path = Cryptography/Super Safe RSA 2/Cryptography/Super
+	url = https://github.com/pablocelayes/rsa-wiener-attack.git

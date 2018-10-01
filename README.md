@@ -33,6 +33,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
 - SpyFi (Unsolved) - 300
+- [Super Safe RSA 2](Cryptography/Super%20Safe%20RSA) - 425
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
 - James Brahm Returns (Unsolved) - 700
 
@@ -84,7 +85,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [assembly-2](Reversing/assembly-2) (Unsolved) - 250
 - be-quick-or-be-dead-2 (Unsolved) - 275
 - Radix's Terminal (Unsolved) - 400
-- keygen-me-1 (Unsolved) - 400
+- [keygen-me-1](Reversing/keygen-me-1) (Unsolved) - 400
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
