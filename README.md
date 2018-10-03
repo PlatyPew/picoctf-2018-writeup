@@ -104,5 +104,5 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - fancy-alive-monitoring (Unsolved) - 400
 - Secure Logon (Unsolved) - 500
 - Help Me Reset 2 (Unsolved) - 600
-- A Simple Question (Unsolved) - 650
+- [A Simple Question](Web%20Exploitation/A%20Simple%20Question) - 650
 - LambDash 3 (Unsolved) - 800
