@@ -15,7 +15,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [leak-me](Binary%20Exploitation/leak-me) - 200
 - [shellcode](Binary%20Exploitation/shellcode) - 200
 - [buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202) - 250
-- [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) (Unsolved) - 250
+- [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) - 250
 - [echooo](Binary%20Exploitation/echooo) (Unsolved) - 300
 - [got-shell?](Binary%20Exploitation/got-shell%3F) - 350
 - [rop chain](Binary%20Exploitation/rop%20chain) (Unsolved) - 350
@@ -33,8 +33,10 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
 - SpyFi (Unsolved) - 300
+- Super Safe RSA (Unsolved) - 350
 - [Super Safe RSA 2](Cryptography/Super%20Safe%20RSA%202) - 425
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
+- Super Safe RSA 3 (Unsolved) - 600
 - James Brahm Returns (Unsolved) - 700
 
 ## Forensics
@@ -71,7 +73,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [absolutely relative](General%20Skills/absolutely%20relative) - 200
 - [in out error](General%20Skills/in%20out%20error) - 275
 - [learn gdb](General%20Skills/learn%20gdb) (Unsolved) - 300
-- store (Unsolved) - 400
+- [store](General%20Skills/store) - 400
 - script me (Unsolved) - 500
 - Dog or Frog (Unsolved) - 900
 
