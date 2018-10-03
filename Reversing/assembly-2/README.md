@@ -11,7 +11,19 @@ Reversing
 >assembly [conditions](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
 
 ## Solution
+```asm
+; [ebp + 0xc] = 0x28
+; [ebp + 0x8] = 0x7
 
+; [ebp - 0x4] = 0x28
+; [ebp-0x8] = 0x7
+
+; 0x7 < 0a1de
+; [ebp - 0x4] = 0x29
+; [ebp + 0x8] = 0x7d
+
+; eax = 0x29
+```
 
 ### Flag
 ``

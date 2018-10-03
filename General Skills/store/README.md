@@ -1,5 +1,5 @@
-# environ
-Points: 150
+# store
+Points: 400
 
 ## Category
 General Skills
