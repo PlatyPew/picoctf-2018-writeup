@@ -85,7 +85,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1) - 200
 - [quackme](Reversing/quackme) - 200
 - [assembly-2](Reversing/assembly-2) - 250
-- be-quick-or-be-dead-2 (Unsolved) - 275
+- [be-quick-or-be-dead-2](Reversing/be-quick-or-be-dead-2) - 275
 - Radix's Terminal (Unsolved) - 400
 - [assembly-3](Reversing/assembly-3) - 400
 - [keygen-me-1](Reversing/keygen-me-1) (Unsolved) - 400
