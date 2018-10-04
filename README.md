@@ -44,16 +44,16 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
 - [Desrouleaux](Forensics/Desrouleaux) - 150
 - Reading Between the Eyes (Unsolved) - 150
-- Recovering From the Snap - 150
+- [Recovering From the Snap](Forensics/Recovering%20From%20the%20Snap) - 150
 - [admin panel](Forensics/admin%20panel) - 150
-- hex editor - 150
-- Truly an Artist - 200
-- now you don't - 200
+- [hex editor](Forensics/hex%20editor) - 150
+- [Truly an Artist](Forensics/Truly%20an%20Artist) - 200
+- [now you don't](Forensics/now%20you%20don%27t) - 200
 - Ext Super Magic (Unsolved) - 250
-- Lying Out - 250
+- [Lying Out](Forensics/Lying%20Out) - 250
 - What's My Name? (Unsolved) - 250
 - Malware Shops (Unsolved) - 400
-- LoadSomeBits - 550
+- [LoadSomeBits](Forensics/LoadSomeBits) - 550
 
 ## General Skills
 - [General Skills 1](General%20Skills/General%20Warmup%201) - 50
