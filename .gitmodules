@@ -1,0 +1,3 @@
+[submodule "msieve"]
+    path = Cryptography/Super Safe RSA/solution/msieve
+    url = git://github.com/radii/msieve.git
