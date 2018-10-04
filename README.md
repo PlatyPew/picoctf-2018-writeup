@@ -103,7 +103,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [The Vault](Web%20Exploitation/The%20Vault) - 250
 - [Artisinal Handcrafted HTTP 3](Web%20Exploitation/Artisinal%20Handcrafted%20HTTP%203) - 300
 - [Flaskcards](Web%20Exploitation/Flaskcards) - 350
-- fancy-alive-monitoring (Unsolved) - 400
+- [fancy-alive-monitoring](Web%20Exploitation/fancy-alive-monitoring) - 400
 - Secure Logon (Unsolved) - 500
 - Help Me Reset 2 (Unsolved) - 600
 - [A Simple Question](Web%20Exploitation/A%20Simple%20Question) - 650
