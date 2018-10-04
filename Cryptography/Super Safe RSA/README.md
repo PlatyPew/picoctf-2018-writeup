@@ -11,7 +11,11 @@ Cryptography
 >Just try the first thing that comes to mind.
 
 ## Solution
-Unsolved.
+The first thing that comes to mind is to factorise _n_, to get the totient, and generate the private key. We use [msieve](https://sourceforge.net/projects/msieve/) as our factorising tool.
+
+Just factorise the primes, and get _p_ and _q_. A Python script is needed to decrypt the ciphertext and get the flag
+
+Working solution [solve.py](solution/solve.py)
 
 ### Flag
-`flag`
+`picoCTF{us3_l@rg3r_pr1m3$_2711}`

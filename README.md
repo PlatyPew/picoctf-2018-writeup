@@ -33,7 +33,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
 - SpyFi (Unsolved) - 300
-- [Super Safe RSA](Cryptography/Super%20Safe%20RSA) (Unsolved) - 350
+- [Super Safe RSA](Cryptography/Super%20Safe%20RSA) - 350
 - [Super Safe RSA 2](Cryptography/Super%20Safe%20RSA%202) - 425
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
 - Super Safe RSA 3 (Unsolved) - 600
