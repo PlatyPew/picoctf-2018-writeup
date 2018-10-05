@@ -21,6 +21,10 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [got-shell?](Binary%20Exploitation/got-shell%3F) - 350
 - [rop chain](Binary%20Exploitation/rop%20chain) - 350
 - [buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203) (Unsolved) - 450
+- [echo back](Binary%20Exploitation/echo%20back) (Unsolved) - 500
+- [are you root?](Binary%20Exploitation/are%20you%20root%3F) (Unsolved) - 550
+- [gps](Binary%20Exploitation/gps) (Unsolved) - 550
+- [can-you-gets-me](Binary%20Exploitation/can-you-gets-me) (Unsolved) - 650
 
 ## Cryptography
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
