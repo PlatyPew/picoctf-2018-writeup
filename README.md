@@ -17,7 +17,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202) - 250
 - [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) - 250
 - [echooo](Binary%20Exploitation/echooo) - 300
-- authenticate (Unsolved) - 350
+- [authenticate](Binary%20Exploitation/authenticate) - 350
 - [got-shell?](Binary%20Exploitation/got-shell%3F) - 350
 - [rop chain](Binary%20Exploitation/rop%20chain) (Unsolved) - 350
 - [buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203) (Unsolved) - 450
