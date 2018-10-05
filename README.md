@@ -17,6 +17,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202) - 250
 - [got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc) - 250
 - [echooo](Binary%20Exploitation/echooo) - 300
+- authenticate (Unsolved) - 350
 - [got-shell?](Binary%20Exploitation/got-shell%3F) - 350
 - [rop chain](Binary%20Exploitation/rop%20chain) (Unsolved) - 350
 - [buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203) (Unsolved) - 450
@@ -51,7 +52,8 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [now you don't](Forensics/now%20you%20don%27t) - 200
 - Ext Super Magic (Unsolved) - 250
 - [Lying Out](Forensics/Lying%20Out) - 250
-- What's My Name? - 250
+- What's My Name? (Unsolved) - 250
+- core (Unsolved) - 350
 - Malware Shops (Unsolved) - 400
 - [LoadSomeBits](Forensics/LoadSomeBits) - 550
 
@@ -73,6 +75,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [absolutely relative](General%20Skills/absolutely%20relative) - 200
 - [in out error](General%20Skills/in%20out%20error) - 275
 - [learn gdb](General%20Skills/learn%20gdb) - 300
+- roulette (Unsolved) - 350
 - [store](General%20Skills/store) - 400
 - script me (Unsolved) - 500
 - Dog or Frog (Unsolved) - 900
@@ -86,10 +89,13 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [quackme](Reversing/quackme) - 200
 - [assembly-2](Reversing/assembly-2) - 250
 - [be-quick-or-be-dead-2](Reversing/be-quick-or-be-dead-2) - 275
+- be-quick-or-be-dead-3 (Unsolved) - 350
+- quackme up (Unsolved) - 350
 - Radix's Terminal (Unsolved) - 400
 - [assembly-3](Reversing/assembly-3) - 400
 - [keygen-me-1](Reversing/keygen-me-1) (Unsolved) - 400
 - [assembly-4](Reversing/assembly-4) - 550
+- special-pw (Unsolved) - 600
 
 ## Web Exploitation
 - [Inspect Me](Web%20Exploitation%2FInspect%20Me) - 125
@@ -105,6 +111,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Flaskcards](Web%20Exploitation/Flaskcards) - 350
 - [fancy-alive-monitoring](Web%20Exploitation/fancy-alive-monitoring) - 400
 - Secure Logon (Unsolved) - 500
+- Flaskcards Skeleton Key (Unsolved) - 600
 - Help Me Reset 2 (Unsolved) - 600
 - [A Simple Question](Web%20Exploitation/A%20Simple%20Question) - 650
 - LambDash 3 (Unsolved) - 800
