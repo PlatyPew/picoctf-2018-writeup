@@ -51,7 +51,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [now you don't](Forensics/now%20you%20don%27t) - 200
 - Ext Super Magic (Unsolved) - 250
 - [Lying Out](Forensics/Lying%20Out) - 250
-- What's My Name? (Unsolved) - 250
+- What's My Name? - 250
 - Malware Shops (Unsolved) - 400
 - [LoadSomeBits](Forensics/LoadSomeBits) - 550
 
@@ -72,7 +72,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [you can't see me](General%20Skills/you%20can%27t%20see%20me) - 200
 - [absolutely relative](General%20Skills/absolutely%20relative) - 200
 - [in out error](General%20Skills/in%20out%20error) - 275
-- [learn gdb](General%20Skills/learn%20gdb) (Unsolved) - 300
+- [learn gdb](General%20Skills/learn%20gdb) - 300
 - [store](General%20Skills/store) - 400
 - script me (Unsolved) - 500
 - Dog or Frog (Unsolved) - 900
