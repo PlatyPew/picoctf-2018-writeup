@@ -24,7 +24,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [echo back](Binary%20Exploitation/echo%20back) (Unsolved) - 500
 - [are you root?](Binary%20Exploitation/are%20you%20root%3F) (Unsolved) - 550
 - [gps](Binary%20Exploitation/gps) (Unsolved) - 550
-- [can-you-gets-me](Binary%20Exploitation/can-you-gets-me) (Unsolved) - 650
+- [can-you-gets-me](Binary%20Exploitation/can-you-gets-me) - 650
 
 ## Cryptography
 - [Crypto Warmup 1](Cryptography/Crypto%20Warmup%201) - 75
