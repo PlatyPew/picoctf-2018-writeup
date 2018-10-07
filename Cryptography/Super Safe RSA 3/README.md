@@ -15,5 +15,7 @@ Unsolved
 
 https://crypto.stackexchange.com/questions/31109/rsa-enc-decryption-with-multiple-prime-modulus-using-crt
 
+https://crypto.stackexchange.com/questions/44110/rsa-with-3-primes
+
 ### Flag
 `flag`
