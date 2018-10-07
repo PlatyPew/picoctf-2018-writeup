@@ -11,7 +11,7 @@ Cryptography
 >How would you find d if there are more than 2 prime factors of n?
 
 ## Solution
-Unsolved
+Unsolved.
 
 https://crypto.stackexchange.com/questions/31109/rsa-enc-decryption-with-multiple-prime-modulus-using-crt
 
