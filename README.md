@@ -58,7 +58,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Lying Out](Forensics/Lying%20Out) - 250
 - [What's My Name?](Forensics/What%27s%20My%20Name%3F) - 250
 - [core](Forensics/core) - 350
-- Malware Shops (Unsolved) - 400
+- [Malware Shops](Forensics/Malware%20Shops) - 400
 - [LoadSomeBits](Forensics/LoadSomeBits) - 550
 
 ## General Skills
