@@ -37,27 +37,27 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [Safe RSA](Cryptography/Safe%20RSA) - 250
 - [caesar cipher 2](Cryptography/caesar%20cipher%202) - 250
 - [rsa-madlibs](Cryptography/rsa-madlibs)- 250
-- SpyFi (Unsolved) - 300
+- [SpyFi](Cryptography/SpyFi) (Unsolved) - 300
 - [Super Safe RSA](Cryptography/Super%20Safe%20RSA) - 350
 - [Super Safe RSA 2](Cryptography/Super%20Safe%20RSA%202) - 425
 - [Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle) (Unsolved) - 450
-- Super Safe RSA 3 (Unsolved) - 600
-- James Brahm Returns (Unsolved) - 700
+- [Super Safe RSA 3](Cryptography/Super%20Safe%20RSA%203) (Unsolved) - 600
+- [James Brahm Returns](Cryptography/James%20Brahm%20Returns) - 700
 
 ## Forensics
 - [Forensics Warmup 1](Forensics/Forensics%20Warmup%201) - 50
 - [Forensics Warmup 2](Forensics/Forensics%20Warmup%202) - 50
 - [Desrouleaux](Forensics/Desrouleaux) - 150
-- Reading Between the Eyes (Unsolved) - 150
+- [Reading Between the Eyes](Forensics/Reading%20Between%20the%20Eyes) - 150
 - [Recovering From the Snap](Forensics/Recovering%20From%20the%20Snap) - 150
 - [admin panel](Forensics/admin%20panel) - 150
 - [hex editor](Forensics/hex%20editor) - 150
 - [Truly an Artist](Forensics/Truly%20an%20Artist) - 200
 - [now you don't](Forensics/now%20you%20don%27t) - 200
-- Ext Super Magic (Unsolved) - 250
+- [Ext Super Magic](Forensics/Ext%20Super%20Magic)- 250
 - [Lying Out](Forensics/Lying%20Out) - 250
-- What's My Name? (Unsolved) - 250
-- core (Unsolved) - 350
+- [What's My Name?](Forensics/What%27s%20My%20Name%3F) - 250
+- [core](Forensics/core) - 350
 - Malware Shops (Unsolved) - 400
 - [LoadSomeBits](Forensics/LoadSomeBits) - 550
 
@@ -79,7 +79,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [absolutely relative](General%20Skills/absolutely%20relative) - 200
 - [in out error](General%20Skills/in%20out%20error) - 275
 - [learn gdb](General%20Skills/learn%20gdb) - 300
-- roulette (Unsolved) - 350
+- [roulette](General%20Skills/roulette) - 350
 - [store](General%20Skills/store) - 400
 - script me (Unsolved) - 500
 - Dog or Frog (Unsolved) - 900
@@ -95,7 +95,7 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [be-quick-or-be-dead-2](Reversing/be-quick-or-be-dead-2) - 275
 - be-quick-or-be-dead-3 (Unsolved) - 350
 - quackme up (Unsolved) - 350
-- Radix's Terminal (Unsolved) - 400
+- [Radix's Terminal](Reversing/Radix%27s%20Terminal) - 400
 - [assembly-3](Reversing/assembly-3) - 400
 - [keygen-me-1](Reversing/keygen-me-1) (Unsolved) - 400
 - [assembly-4](Reversing/assembly-4) - 550
@@ -116,6 +116,6 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 - [fancy-alive-monitoring](Web%20Exploitation/fancy-alive-monitoring) - 400
 - Secure Logon (Unsolved) - 500
 - Flaskcards Skeleton Key (Unsolved) - 600
-- Help Me Reset 2 (Unsolved) - 600
+- [Help Me Reset 2](Web%20Exploitation/Help%20Me%20Reset%202) - 600
 - [A Simple Question](Web%20Exploitation/A%20Simple%20Question) - 650
 - LambDash 3 (Unsolved) - 800
