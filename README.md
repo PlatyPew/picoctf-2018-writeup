@@ -28,7 +28,7 @@ Just a casual warmup before my school's annual CTF.
 |[rop chain](Binary%20Exploitation/rop%20chain)|350|Solved|
 |[buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203)|450|Unsolved|
 |[echo back](Binary%20Exploitation/echo%20back)|500|Unsolved|
-|[are you root?](Binary%20Exploitation/are%20you%20root%3F)|550|Solved|
+|[are you root?](Binary%20Exploitation/are%20you%20root%3F)|550|Unsolved|
 |[gps](Binary%20Exploitation/gps)|550|Unsolved|
 |[can-you-gets-me](Binary%20Exploitation/can-you-gets-me)|650|Solved|
 |Unknown|???|???|
@@ -55,7 +55,7 @@ Just a casual warmup before my school's annual CTF.
 |[Super Safe RSA 2](Cryptography/Super%20Safe%20RSA%202)|425|Solved|
 |[Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle)|450|Unsolved|
 |[Super Safe RSA 3](Cryptography/Super%20Safe%20RSA%203)|600|Unsolved|
-|[James Brahm Returns](Cryptography/James%20Brahm%20Returns)|700|Solved|
+|[James Brahm Returns](Cryptography/James%20Brahm%20Returns)|700|Unolved|
 |Unknown|???|???|
 |Unknown|???|???|
 |Unknown|???|???|
