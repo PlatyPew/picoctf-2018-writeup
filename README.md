@@ -3,7 +3,8 @@ This CTF was done with [@pauxy](https://github.com/pauxy) and [@StopDuckRoll](ht
 
 Special thanks to [@LFlare](https://github.com/LFlare) for helping out with a few challenges!
 
-Just a casual warmup before my school's annual CTF.
+### Forensics writeups
+Although it states that I may do some of the writeups for the forensics challenges, it's very unlikely it will ever be completed, mostly because those challenges were not solved by me, and I'm lazy. Pull requests are welcomed!
 
 # Content Page
 - [Binary Exploitation](#binary-exploitation)
