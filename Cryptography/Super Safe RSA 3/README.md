@@ -11,11 +11,13 @@ Cryptography
 >How would you find d if there are more than 2 prime factors of n?
 
 ## Solution
-Unsolved.
+Use msieve to install to factorise the primes
 
-https://crypto.stackexchange.com/questions/31109/rsa-enc-decryption-with-multiple-prime-modulus-using-crt
+Calculate the totient by doing `(prime_1 - 1) * (prime_2 - 1) ... (prime_n - 1)` where `n` is the total number of primes
 
-https://crypto.stackexchange.com/questions/44110/rsa-with-3-primes
+Reconstruct the private key, and decrypt the message
+
+Recommended reads: https://crypto.stackexchange.com/questions/44110/rsa-with-3-primes
 
 ### Flag
-`flag`
+`picoCTF{p_&_q_n0_r_$_t!!_6629910}`

@@ -55,7 +55,7 @@ Although it states that I may do some of the writeups for the forensics challeng
 |[Super Safe RSA](Cryptography/Super%20Safe%20RSA)|350|Solved|
 |[Super Safe RSA 2](Cryptography/Super%20Safe%20RSA%202)|425|Solved|
 |[Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle)|450|Unsolved|
-|[Super Safe RSA 3](Cryptography/Super%20Safe%20RSA%203)|600|Unsolved|
+|[Super Safe RSA 3](Cryptography/Super%20Safe%20RSA%203)|600|Solved|
 |[James Brahm Returns](Cryptography/James%20Brahm%20Returns)|700|Unolved|
 |Unknown|???|???|
 |Unknown|???|???|
