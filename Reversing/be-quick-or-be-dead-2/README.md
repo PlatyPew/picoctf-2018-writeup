@@ -50,69 +50,80 @@ Patch the binary to remove the _set_timer_ function using NOPs.
 
 Studying the binary, it seems that it's doing the Fibonacci sequence recursively, that's why it takes so long.
 
-First, we patch the binary so that it does not use such a huge number.
+We can use Python to calculate the result iteratively. This will make the process a lot faster.
+
+Code stolen from: https://gist.github.com/sgammon/4185115
+
+```python
+n = 1083
+
+def fib(n):
+    i = 0
+    nextterm = 1
+    present = 1
+    previous = 0
+
+    while i < n:
+        nextterm = present + previous
+        present = previous
+        previous = nextterm
+        i = i + 1
+    return nextterm
+
+result = fib(n)
+print(result & (2 ** 64 - 1))
+```
+
+We need to convert the huge number into a 64-bit number so that our program can process it. This is done by doing `result & (2 ** 64 - 1)`. We get `13519797236961659458`
+
+Now all we have to do is to patch the binary, and set `rax = 13519797236961659458`. We will need 10 bytes to create this instruction. We can ovewrite from addresses `0x004007dc` to `0x004007e5`.
 
 ```asm
-[0x0040074b]> wa mov edi, 5 @ 0x0040074f
-[0x0040074b]> pdf
-/ (fcn) sym.calculate_key 16
-|   sym.calculate_key ();
-|           ; CALL XREF from sym.get_key (0x4007e1)
-|           0x0040074b      55             push rbp
-|           0x0040074c      4889e5         mov rbp, rsp
-|           0x0040074f      bf05000000     mov edi, 5
-|           0x00400754      e8adffffff     call sym.fib
-|           0x00400759      5d             pop rbp
-\           0x0040075a      c3             ret
+/ (fcn) sym.get_key 43
+|   sym.get_key ();
+|           ...
+|           ...
+|           0x004007d7      e854fdffff     call sym.imp.puts           ; int puts(const char *s)
+|           0x004007dc      b800000000     mov eax, 0
+|           0x004007e1      e865ffffff     call sym.calculate_key
+|           0x004007e6      8905d4082000   mov dword [obj.key], eax    ; obj.__TMC_END ; [0x6010c0:4]=0
+|           0x004007ec      bfcb094000     mov edi, str.Done_calculating_key ; 0x4009cb ; "Done calculating key" ; const char *s
+|           0x004007f1      e83afdffff     call sym.imp.puts           ; int puts(const char *s)
+|           ...
+\           ...
 ```
 
-Instead of doing the fibonacci sequence recurvsively, we can do it iteratively in c.
-
-```c
-#include <stdio.h>
-
-int main() {
-	int n = 1083;
-
-	long previous = 1;
-	long current = 1;
-	long next = 1;
-
-	for (int i = 3; i <= n; ++i) {
-		next = current + previous;
-		previous = current;
-		current = next;
-	}
-	printf("%d\n", next);
-	return 0;
-}
-```
-
-We can see that there's an integer overflow because it's negative. But it's just what we need to feed into our register.
-
-```
-$ gcc calculate.c 
-$ ./a.out 
--1066907070
-```
-
-Set a break point after the _fib_ function and edit _rax_ to the value we calculated using the C program (-1066907070)
+Now all we have left to do is to patch it and run it.
 
 ```asm
-[0x0040074b]> db 0x00400759
-[0x0040074b]> dc
+[0x004007ce]> wa mov rax, 13519797236961659458 @ 0x004007dc
+Written 10 byte(s) (mov rax, 13519797236961659458) = wx 48b8424a68c0f4f79fbb
+[0x004007ce]> pdf
+/ (fcn) sym.get_key 43
+|   sym.get_key ();
+|           ; CALL XREF from sym.main (0x400887)
+|           0x004007ce      55             push rbp
+|           0x004007cf      4889e5         mov rbp, rsp
+|           0x004007d2      bfb8094000     mov edi, str.Calculating_key... ; 0x4009b8 ; "Calculating key..." ; const char *s
+|           0x004007d7      e854fdffff     call sym.imp.puts           ; int puts(const char *s)
+|           0x004007dc      48b8424a68c0.  movabs rax, 0xbb9ff7f4c0684a42
+|           0x004007e6      8905d4082000   mov dword [obj.key], eax    ; obj.__TMC_END ; [0x6010c0:4]=0
+|           0x004007ec      bfcb094000     mov edi, str.Done_calculating_key ; 0x4009cb ; "Done calculating key" ; const char *s
+|           0x004007f1      e83afdffff     call sym.imp.puts           ; int puts(const char *s)
+|           0x004007f6      90             nop
+|           0x004007f7      5d             pop rbp
+\           0x004007f8      c3             ret
+```
+
+```
+$ ./be-quick-or-be-dead-2_patched
 Be Quick Or Be Dead 2
 =====================
 
 Calculating key...
-hit breakpoint at: 400759
-[0x0040074b]> dr rax = -1066907070
-0x00000005 ->0xffffffffc0684a42
-[0x0040074b]> dc
 Done calculating key
 Printing flag:
 picoCTF{the_fibonacci_sequence_can_be_done_fast_88f31f48}
-[0x7f1d298a3916]>
 ```
 
 And we get the flag.
