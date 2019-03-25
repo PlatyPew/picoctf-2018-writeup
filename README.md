@@ -15,148 +15,574 @@ Although it states that I may do some of the writeups for the forensics challeng
 - [Web Exploitation](#web-exploitation)
 
 ## Binary Exploitation
-|Challenges|Points|Status|
-|-|-|-|
-|[buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200)|150|Solved|
-|[buffer overflow 1](Binary%20Exploitation/buffer%20overflow%201)|200|Solved|
-|[leak-me](Binary%20Exploitation/leak-me)|200|Solved|
-|[shellcode](Binary%20Exploitation/shellcode)|200|Solved|
-|[buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202)|250|Solved|
-|[got-2-learn-libc](Binary%20Exploitation/got-2-learn-libc)|250|Solved|
-|[echooo](Binary%20Exploitation/echooo)|300|Solved|
-|[authenticate](Binary%20Exploitation/authenticate)|350|Solved|
-|[got-shell?](Binary%20Exploitation/got-shell%3F)|350|Solved|
-|[rop chain](Binary%20Exploitation/rop%20chain)|350|Solved|
-|[buffer overflow 3](Binary%20Exploitation/buffer%20overflow%203)|450|Unsolved|
-|[echo back](Binary%20Exploitation/echo%20back)|500|Unsolved|
-|[are you root?](Binary%20Exploitation/are%20you%20root%3F)|550|Unsolved|
-|[gps](Binary%20Exploitation/gps)|550|Unsolved|
-|[can-you-gets-me](Binary%20Exploitation/can-you-gets-me)|650|Solved|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
+<table>
+    <thead>
+        <tr class="header">
+            <th>Challenges</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/buffer%20overflow%200">buffer overflow 0</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/buffer%20overflow%201">buffer overflow 1</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/leak-me">leak-me</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/shellcode">shellcode</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/buffer%20overflow%202">buffer overflow 2</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/got-2-learn-libc">got-2-learn-libc</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/echooo">echooo</a></td>
+            <td markdown="span">300</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/authenticate">authenticate</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/got-shell%3F">got-shell?</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/rop%20chain">rop chain</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/buffer%20overflow%203">buffer overflow 3</a></td>
+            <td markdown="span">450</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/echo%20back">echo back</a></td>
+            <td markdown="span">500</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/are%20you%20root%3F">are you root?</a></td>
+            <td markdown="span">550</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/gps">gps</a></td>
+            <td markdown="span">550</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Binary%20Exploitation/can-you-gets-me">can-you-gets-me</a></td>
+            <td markdown="span">650</td>
+            <td markdown="span">Solved</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Cryptography
-|Challenges|Points|Status|
-|-|-|-|
-|[Crypto Warmup 1](Cryptography/Crypto%20Warmup%201)|75|Solved|
-|[Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)|75|Solved|
-|[HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!)|100|Solved|
-|[caesar cipher 1](Cryptography/caesar%20cipher%201)|150|Solved|
-|[hertz](Cryptography/hertz)|150|Solved|
-|[blaise's cipher](Cryptography/blaise%27s%20cipher)|200|Solved|
-|[hertz 2](Cryptography/hertz%202)|200|Solved|
-|[Safe RSA](Cryptography/Safe%20RSA)|250|Solved|
-|[caesar cipher 2](Cryptography/caesar%20cipher%202)|250|Solved|
-|[rsa-madlibs](Cryptography/rsa-madlibs)|250|Solved|
-|[SpyFi](Cryptography/SpyFi)|300|Unsolved|
-|[Super Safe RSA](Cryptography/Super%20Safe%20RSA)|350|Solved|
-|[Super Safe RSA 2](Cryptography/Super%20Safe%20RSA%202)|425|Solved|
-|[Magic Padding Oracle](Cryptography/Magic%20Padding%20Oracle)|450|Unsolved|
-|[Super Safe RSA 3](Cryptography/Super%20Safe%20RSA%203)|600|Solved|
-|[James Brahm Returns](Cryptography/James%20Brahm%20Returns)|700|Unolved|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
+<table>
+    <thead>
+        <tr class="header">
+            <th>Challenges</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Crypto%20Warmup%201">Crypto Warmup 1</a></td>
+            <td markdown="span">75</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Crypto%20Warmup%202">Crypto Warmup 2</a></td>
+            <td markdown="span">75</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/HEEEEEEERE%27S%20Johnny!">HEEEEEEERE'S Johnny!</a></td>
+            <td markdown="span">100</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/caesar%20cipher%201">caesar cipher 1</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/hertz">hertz</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/blaise%27s%20cipher">blaise's cipher</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/hertz%202">hertz 2</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Safe%20RSA">Safe RSA</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/caesar%20cipher%202">caesar cipher 2</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/rsa-madlibs">rsa-madlibs</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/SpyFi">SpyFi</a></td>
+            <td markdown="span">300</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Super%20Safe%20RSA">Super Safe RSA</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Super%20Safe%20RSA%202">Super Safe RSA 2</a></td>
+            <td markdown="span">425</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Magic%20Padding%20Oracle">Magic Padding Oracle</a></td>
+            <td markdown="span">450</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/Super%20Safe%20RSA%203">Super Safe RSA 3</a></td>
+            <td markdown="span">600</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Cryptography/James%20Brahm%20Returns">James Brahm Returns</a></td>
+            <td markdown="span">700</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Forensics
-|Challenges|Points|Status|
-|-|-|-|
-|[Forensics Warmup 1](Forensics/Forensics%20Warmup%201)|50|Solved|
-|[Forensics Warmup 2](Forensics/Forensics%20Warmup%202)|50|Solved|
-|[Desrouleaux](Forensics/Desrouleaux)|150|Solved|
-|[Reading Between the Eyes](Forensics/Reading%20Between%20the%20Eyes)|150|Solved|
-|[Recovering From the Snap](Forensics/Recovering%20From%20the%20Snap)|150|Solved|
-|[admin panel](Forensics/admin%20panel)|150|Solved|
-|[hex editor](Forensics/hex%20editor)|150|Solved|
-|[Truly an Artist](Forensics/Truly%20an%20Artist)|200|Solved|
-|[now you don't](Forensics/now%20you%20don%27t)|200|Solved|
-|[Ext Super Magic](Forensics/Ext%20Super%20Magic)|250|Unsolved|
-|[Lying Out](Forensics/Lying%20Out)|250|Solved|
-|[What's My Name?](Forensics/What%27s%20My%20Name%3F)|250|Solved|
-|[core](Forensics/core)|350|Unsolved|
-|[Malware Shops](Forensics/Malware%20Shops)|400|Unsolved|
-|[LoadSomeBits](Forensics/LoadSomeBits)|550|Solved|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
+<table>
+    <thead>
+        <tr class="header">
+            <th>Challenges</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td markdown="span"><a href="Forensics/Forensics%20Warmup%201">Forensics Warmup 1</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Forensics%20Warmup%202">Forensics Warmup 2</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Desrouleaux">Desrouleaux</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Reading%20Between%20the%20Eyes">Reading Between the Eyes</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Recovering%20From%20the%20Snap">Recovering From the Snap</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/admin%20panel">admin panel</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/hex%20editor">hex editor</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Truly%20an%20Artist">Truly an Artist</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/now%20you%20don%27t">now you don't</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Ext%20Super%20Magic">Ext Super Magic</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Lying%20Out">Lying Out</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/What%27s%20My%20Name%3F">What's My Name?</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/core">core</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/Malware%20Shops">Malware Shops</a></td>
+            <td markdown="span">400</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Forensics/LoadSomeBits">LoadSomeBits</a></td>
+            <td markdown="span">550</td>
+            <td markdown="span">Solved</td>
+        </tr>
+    </tbody>
+</table>
 
 ## General Skills
-|Challenges|Points|Status|
-|-|-|-|
-|[General Skills 1](General%20Skills/General%20Warmup%201)|50|Solved|
-|[General Skills 2](General%20Skills/General%20Warmup%202)|50|Solved|
-|[General Skills 3](General%20Skills/General%20Warmup%203)|50|Solved|
-|[Resources](General%20Skills/Resources)|50|Solved|
-|[grep 1](General%20Skills/grep%201)|75|Solved|
-|[net cat](General%20Skills/net%20cat)|75|Solved|
-|[strings](General%20Skills/strings)|100|Solved|
-|[pipe](General%20Skills/pipe)|110|Solved|
-|[grep 2](General%20Skills/grep%202)|125|Solved|
-|[Aca-Shell-A](General%20Skills/Aca-Shell-A)|150|Solved|
-|[environ](General%20Skills/environ)|150|Solved|
-|[ssh-keyz](General%20Skills/ssh-keyz)|150|Solved|
-|[what base is this?](General%20Skills/what%20base%20is%20this%3F)|200|Solved|
-|[you can't see me](General%20Skills/you%20can%27t%20see%20me)|200|Solved|
-|[absolutely relative](General%20Skills/absolutely%20relative)|200|Solved|
-|[in out error](General%20Skills/in%20out%20error)|275|Solved|
-|[learn gdb](General%20Skills/learn%20gdb)|300|Solved|
-|[roulette](General%20Skills/roulette)|350|Solved|
-|[store](General%20Skills/store)|400|Solved|
-|[script me](General%20Skills/script%20me)|500|Unsolved|
-|[Dog or Frog](General%20Skills/Dog%20or%20Frog)|900|Unsolved|
+<table>
+    <thead>
+        <tr class="header">
+            <th>Challenges</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/General%20Warmup%201">General Skills 1</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/General%20Warmup%202">General Skills 2</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/General%20Warmup%203">General Skills 3</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/Resources">Resources</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/grep%201">grep 1</a></td>
+            <td markdown="span">75</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/net%20cat">net cat</a></td>
+            <td markdown="span">75</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/strings">strings</a></td>
+            <td markdown="span">100</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/pipe">pipe</a></td>
+            <td markdown="span">110</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/grep%202">grep 2</a></td>
+            <td markdown="span">125</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/Aca-Shell-A">Aca-Shell-A</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/environ">environ</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/ssh-keyz">ssh-keyz</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/what%20base%20is%20this%3F">what base is this?</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/you%20can%27t%20see%20me">you can't see me</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/absolutely%20relative">absolutely relative</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/in%20out%20error">in out error</a></td>
+            <td markdown="span">275</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/learn%20gdb">learn gdb</a></td>
+            <td markdown="span">300</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/roulette">roulette</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/store">store</a></td>
+            <td markdown="span">400</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/script%20me">script me</a></td>
+            <td markdown="span">500</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="General%20Skills/Dog%20or%20Frog">Dog or Frog</a></td>
+            <td markdown="span">900</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Reversing
-|Challenges|Points|Status|
-|-|-|-|
-|[Reversing Warmup 1](Reversing/Reversing%20Warmup%201)|50|Solved|
-|[Reversing Warmup 2](Reversing/Reversing%20Warmup%202)|50|Solved|
-|[assembly-0](Reversing/assembly-0)|150|Solved|
-|[assembly-1](Reversing/assembly-1)|200|Solved|
-|[be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1)|200|Solved|
-|[quackme](Reversing/quackme)|200|Solved|
-|[assembly-2](Reversing/assembly-2)|250|Solved|
-|[be-quick-or-be-dead-2](Reversing/be-quick-or-be-dead-2)|275|Solved|
-|[be-quick-or-be-dead-3](Reversing/be-quick-or-be-dead-3)|350|Unsolved|
-|[quackme up](Reversing/quackme%20up)|350|Unsolved|
-|[Radix's Terminal](Reversing/Radix%27s%20Terminal)|400|Solved|
-|[assembly-3](Reversing/assembly-3)|400|Solved|
-|[keygen-me-1](Reversing/keygen-me-1)|400|Unsolved|
-|[assembly-4](Reversing/assembly-4)|550|Solved|
-|[special-pw](Reversing/special-pw)|600|Unsolved|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
+<table>
+    <thead>
+        <tr class="header">
+            <th>Challenges</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td markdown="span"><a href="Reversing/Reversing%20Warmup%201">Reversing Warmup 1</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/Reversing%20Warmup%202">Reversing Warmup 2</a></td>
+            <td markdown="span">50</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/assembly-0">assembly-0</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/assembly-1">assembly-1</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/be-quick-or-be-dead-1">be-quick-or-be-dead-1</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/quackme">quackme</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/assembly-2">assembly-2</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/be-quick-or-be-dead-2">be-quick-or-be-dead-2</a></td>
+            <td markdown="span">275</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/be-quick-or-be-dead-3">be-quick-or-be-dead-3</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/quackme%20up">quackme up</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/Radix%27s%20Terminal">Radix's Terminal</a></td>
+            <td markdown="span">400</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/assembly-3">assembly-3</a></td>
+            <td markdown="span">400</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/keygen-me-1">keygen-me-1</a></td>
+            <td markdown="span">400</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/assembly-4">assembly-4</a></td>
+            <td markdown="span">550</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Reversing/special-pw">special-pw</a></td>
+            <td markdown="span">600</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Web Exploitation
-|Challenges|Points|Status|
-|-|-|-|
-|[Inspect Me](Web%20Exploitation%2FInspect%20Me)|125|Solved|
-|[Client Side is Still Bad](Web%20Exploitation/Client%20Side%20is%20Still%20Bad)|150|Solved|
-|[Logon](Web%20Exploitation/Logon)|150|Solved|
-|[Irish Name Repo](Web%20Exploitation/Irish%20Name%20Repo)|200|Solved|
-|[Mr. Robots](Web%20Exploitation/Mr.%20Robots)|200|Solved|
-|[No Login](Web%20Exploitation/No%20Login)|200|Solved|
-|[Secret Agent](Web%20Exploitation/Secret%20Agent)|200|Solved|
-|[Buttons](Web%20Exploitation/Buttons)|250|Solved|
-|[The Vault](Web%20Exploitation/The%20Vault)|250|Solved|
-|[Artisinal Handcrafted HTTP 3](Web%20Exploitation/Artisinal%20Handcrafted%20HTTP%203)|300|Solved|
-|[Flaskcards](Web%20Exploitation/Flaskcards)|350|Solved|
-|[fancy-alive-monitoring](Web%20Exploitation/fancy-alive-monitoring)|400|Solved|
-|[Secure Logon](Web%20Exploitation/Secure%20Logon)|500|Unsolved|
-|[Flaskcards Skeleton Key](Web%20Exploitation/Flaskcards%20Skeleton%20Key)|600|Unsolved|
-|[Help Me Reset 2](Web%20Exploitation/Help%20Me%20Reset%202)|600|Solved|
-|[A Simple Question](Web%20Exploitation/A%20Simple%20Question)|650|Solved|
-|[LambDash 3](LambDash%203)|800|Unsolved|
-|Unknown|???|???|
-|Unknown|???|???|
-|Unknown|???|???|
+<table>
+    <thead>
+        <tr class="header">
+            <th>Challenges</th>
+            <th>Points</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation%2FInspect%20Me">Inspect Me</a></td>
+            <td markdown="span">125</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Client%20Side%20is%20Still%20Bad">Client Side is Still Bad</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Logon">Logon</a></td>
+            <td markdown="span">150</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Irish%20Name%20Repo">Irish Name Repo</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Mr.%20Robots">Mr. Robots</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/No%20Login">No Login</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Secret%20Agent">Secret Agent</a></td>
+            <td markdown="span">200</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Buttons">Buttons</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/The%20Vault">The Vault</a></td>
+            <td markdown="span">250</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Artisinal%20Handcrafted%20HTTP%203">Artisinal Handcrafted HTTP 3</a></td>
+            <td markdown="span">300</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Flaskcards">Flaskcards</a></td>
+            <td markdown="span">350</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/fancy-alive-monitoring">fancy-alive-monitoring</a></td>
+            <td markdown="span">400</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Secure%20Logon">Secure Logon</a></td>
+            <td markdown="span">500</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Flaskcards%20Skeleton%20Key">Flaskcards Skeleton Key</a></td>
+            <td markdown="span">600</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/Help%20Me%20Reset%202">Help Me Reset 2</a></td>
+            <td markdown="span">600</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="Web%20Exploitation/A%20Simple%20Question">A Simple Question</a></td>
+            <td markdown="span">650</td>
+            <td markdown="span">Solved</td>
+        </tr>
+        <tr>
+            <td markdown="span"><a href="LambDash%203">LambDash 3</a></td>
+            <td markdown="span">800</td>
+            <td markdown="span">Unsolved</td>
+        </tr>
+    </tbody>
+</table>
