@@ -2,6 +2,7 @@
 # Author: plusline (https://github.com/plusline)
 # Modified by: PlatyPew
 
+import re
 from pwn import *
 
 
@@ -44,9 +45,26 @@ def main():
         s.recvline()
 
     problem = s.recvline().strip()
+    log.info('QUESTION: {}'.format(problem))
     ans = solve(problem.split('=')[0].strip())
-    print(ans)
+    log.info('ANSWER: {}'.format(ans))
+    s.sendline(ans)
+    print
 
+    for qns in range(4):
+        for i in range(4):
+            s.recvline()
+        problem = s.recvline().strip()
+        log.info('QUESTION: {}'.format(problem))
+        ans = solve(problem.split('=')[0].strip())
+        log.info('ANSWER: {}'.format(ans))
+        s.sendline(ans)
+        print
+
+    for i in range(3):
+        s.recvline()
+    flag = s.recvline().strip()
+    log.success('Flag: ' + re.findall(r'(picoCTF\{.+\})', flag)[0])
 
 if __name__ == '__main__':
     main()
