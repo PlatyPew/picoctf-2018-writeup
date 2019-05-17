@@ -11,7 +11,9 @@ General Skills
 >Maybe try writing a python script?
 
 ## Solution
-Unsolved.
+Working solution [solve.py](solution/solve.py)
+
+Solved by: [@plusline](https://github.com/plusline)
 
 ### Flag
-`flag`
+`picoCTF{5cr1pt1nG_l1k3_4_pRo_45ca3f85}`

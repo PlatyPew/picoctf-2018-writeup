@@ -391,7 +391,7 @@ Although it states that I may do some of the writeups for the forensics challeng
         <tr>
             <td markdown="span"><a href="General%20Skills/script%20me">script me</a></td>
             <td markdown="span">500</td>
-            <td markdown="span">Unsolved</td>
+            <td markdown="span">Solved (<a href="https://github.com/plusline">@plusline</a>)</td>
         </tr>
         <tr>
             <td markdown="span"><a href="General%20Skills/Dog%20or%20Frog">Dog or Frog</a></td>
