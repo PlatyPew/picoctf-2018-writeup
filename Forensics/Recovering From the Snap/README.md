@@ -11,7 +11,16 @@ Forensics
 >Some files have been deleted from the disk image, but are they really gone?.
 
 ## Solution
-To do.
+install photoRec [as per your OS and architecture]
+```https://www.cgsecurity.org/wiki/TestDisk_Download```
+
+run ```photoRec animals.dd```
+
+<br>
+It will recover 4 .JPG files
+<br>
+3 of them are animal photos and 4th one contains the flag.
+<br>
 
 ### Flag
-`flag`
+`picoCTF{th3_5n4p_happ3n3d}`
