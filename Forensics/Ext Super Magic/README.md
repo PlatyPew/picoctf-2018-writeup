@@ -19,7 +19,7 @@ Forensics
 >Once you've fixed the corruption, you can use /sbin/[debugfs](https://linux.die.net/man/8/debugfs) to pull the flag file out.
 
 ## Solution
-Unsolved.
+To do.
 
 ### Flag
-`flag`
+`picoCTF{a7DB29eCf7dB9960f0A19Fdde9d00Af0}`
