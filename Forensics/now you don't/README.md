@@ -13,7 +13,7 @@ Forensics
 >Is it really all one shade of red?
 
 ## Solution
-To do.
+Download the image, put it into MS paint or image editor of your choice. Then, fill in the background with any non-red colour, to reveal the answer
 
 ### Flag
-`flag`
+picoCTF{n0w_y0u_533_m3}
