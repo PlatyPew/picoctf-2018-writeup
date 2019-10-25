@@ -14,6 +14,7 @@ Cryptography
 We have to submit the encrypted JSON string with the `"is_admin"` property set to a string called `"true"` and the `"expires"` property changed to a date later than the date the string was submitted. Also take note that the date string has to adhere to the following format: `%Y-%m-%d`. The `"username"` property has to be present but can be of any value.
 
 This JSON string: `{"username": "cafebabe!","is_admin": "true","expires": "2020-1-1"}` was accepted.
+The encrypted JSON string is: `bab23fa6e34b02b1b4279bf85d89e03e4d8fc9cc9dee572b7c40c9c710f27426437ce07b7d4356c9a97dff9840209d50c9b18d4547f557437fe70d5c62f66283590c5cdaf042515720b8879e43de91e4cafebabecafebabecafebabecafebabe`
 
 In order to encrypt it without the key, we can use the padding oracle attack to make a decryption oracle. This decryption oracle is able to take in a ciphertext block and output the corresponding decrypted ciphertext block.
 
@@ -36,4 +37,4 @@ For some reason the communication with the server is really slow. I am not sure 
 Hence encrypting the entire JSON string takes around -4 hours because it's 4 blocks long.
 
 ### Flag
-`picoCTF{0r4c13s_c4n_l34k_c644af03}`
+`picoCTF{0r4cl3s_c4n_l34k_c644af03}`
