@@ -103,7 +103,7 @@ def encrypt_plaintext(plaintext):
         # Get C_n-1 by XOR-ing with plaintext block
         previous_cipher_block = int.from_bytes(block, byteorder='big') ^ int(current_decrypted_block, base=16)
         previous_cipher_block = hex(previous_cipher_block)[2:]
-        previous_cipher_block = add_zeros(previous_cipher_block, 16)
+        previous_cipher_block = add_zeros(previous_cipher_block, 32)
 
         ciphertext.append(previous_cipher_block) # Append to ciphertext
         current_cipher_block = previous_cipher_block # Make prev cipherblock current cipherblock
